@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+:root{
+    --corPrincipal: rgb(252, 252, 252);
+    --corSecundaria: rgba(219, 140, 109, 0.555);
+    --letrasCursivas:'Dancing Script', cursive;
+    
+}
+/*resta os espaço ao redor do conteúdo*/
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color:var(--corPrincipal); /*Muda a cor de fondo */
+    background-image: url(../img/pngtree-cute-hand-drawn-style-mathematics-education-pink-background-picture-image_1176711.jpg);/*imagem do fundo*/
+    background-repeat: no-repeat;/* defino que a imagem de fumdo nao vai se repetir*/
+    background-size: cover; /*dimensiona a imagem pra cobrir todo o fundo,mesmo que seja
+    necesserio esticar ou cortar um pouco da imagem */
+    font-size: 20px;/* tamanho da fonte */
+    color: aliceblue; /* cor da fonte*/
+    font-family: 'Oleo Script', cursive;/* estilo da fonte, o qual peguei no google fonts*/
+}
+
+header,
+main,
+footer{
+    width: 500px;/*largura*/
+    margin: 0 auto; /*centralizada a caixa*/
+    background-color: var(--corSecundaria);/* cor da caixa  do meio */
+    text-align:center;
+}
+
+header{
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+ul{
+    list-style: none; /*desativa as bolinhas da lista */
+    text-align: center; /* alinha o texto centralizado*/
+    
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+}
+
+
+button{
+    border-radius: 5px;/* arredondar os cantos*/
+    padding: 10px;/*espaçamento interno*/
+    width: 150px; /* largura*/
+    background-color: coral; /* cor do butão*/
+    color: aliceblue; /*cor do nome dentro do botão */
+    font-weight: bold;
+    border: 0px;
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: 'Oleo Script', cursive;
+}
+
+footer{
+    font-size: 15px;
+    padding-bottom: 10px;
+    width: 500px;
+}
+
+main{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
